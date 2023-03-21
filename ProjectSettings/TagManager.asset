@@ -3,12 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerUI
+  - Weapon
+  - Action
+  - Ignore Ragdoll
+  - Collectable
+  - AutoCrouch
+  - LookAt
+  - Concrete
+  - LadderTrigger
+  - Enemy
+  - Boss
+  - Interactable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Triggers
   - Water
   - UI
   - 

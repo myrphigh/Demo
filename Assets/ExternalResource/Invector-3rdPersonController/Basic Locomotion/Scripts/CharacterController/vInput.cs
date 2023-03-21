@@ -53,7 +53,7 @@ namespace Invector.vCharacterController
             switch (inputDevice)
             {
                 case InputDevice.MouseKeyboard:
-                    if (isJoystickInput())
+                    if (false)
                     {
                         inputDevice = InputDevice.Joystick;
 
@@ -103,7 +103,7 @@ namespace Invector.vCharacterController
                             hud.ShowText("Control scheme changed to Keyboard/Mouse", 2f, 0.5f);
                         }
                     }
-                    else if (isJoystickInput())
+                    else if (false)
                     {
                         inputDevice = InputDevice.Joystick;
                         if (hud != null)

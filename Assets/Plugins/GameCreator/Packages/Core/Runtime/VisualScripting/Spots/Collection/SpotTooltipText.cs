@@ -26,7 +26,7 @@ namespace GameCreator.Runtime.VisualScripting
 
         private const int PADDING = 50;
 
-        private const string FONT_NAME = "Arial.ttf";
+        private const string FONT_NAME = "LegacyRuntime.ttf";
         private const int FONT_SIZE = 32;
         
         private static readonly Color COLOR_BACKGROUND = new Color(0f, 0f, 0f, 0.5f);

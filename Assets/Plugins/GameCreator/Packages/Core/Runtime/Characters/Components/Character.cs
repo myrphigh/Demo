@@ -42,8 +42,8 @@ namespace GameCreator.Runtime.Characters
         
         [SerializeField] protected Busy m_Busy = new Busy();
         [SerializeField] protected CharacterKernel m_Kernel = new CharacterKernel();
-        
-        [SerializeField] protected AnimimGraph m_AnimimGraph = new AnimimGraph();
+
+        [SerializeField] protected AnimimGraph m_AnimimGraph = null;
         [SerializeField] protected InverseKinematics m_InverseKinematics = new InverseKinematics();
         
         [SerializeField] protected Interaction m_Interaction = new Interaction();
