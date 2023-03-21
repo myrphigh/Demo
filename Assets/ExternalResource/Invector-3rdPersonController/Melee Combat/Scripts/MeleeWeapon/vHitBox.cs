@@ -8,6 +8,7 @@ namespace Invector.vMelee
     {
         [HideInInspector]
         public vMeleeAttackObject attackObject;
+        public SpecialWeaponMarker marker;
         // [HideInInspector]
         public Collider trigger
         {
@@ -53,7 +54,9 @@ namespace Invector.vMelee
         }
 
         void Start()
-        {          
+        {
+            marker = gameObject.GetComponent<SpecialWeaponMarker>();
+
             if (trigger)
             {
                 trigger.isTrigger = true;
@@ -70,7 +73,12 @@ namespace Invector.vMelee
             {
                 if (attackObject != null)
                 {
+                    if (marker.isEnhanced)
+                    {
+                        damagePercentage *= 2;
+                    }
                     attackObject.OnHit(this, other);
+                    damagePercentage = 100;
                 }
             }
         }
