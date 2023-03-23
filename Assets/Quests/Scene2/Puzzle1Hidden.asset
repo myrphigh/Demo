@@ -85,7 +85,7 @@ MonoBehaviour:
     - rid: 6792197310528880917
       type: {class: Task, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
       data:
-        m_Completion: 0
+        m_Completion: 1
         m_IsHidden: 1
         m_Name:
           m_Property:
