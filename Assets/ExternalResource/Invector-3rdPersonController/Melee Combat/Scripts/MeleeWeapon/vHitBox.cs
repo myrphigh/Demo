@@ -73,9 +73,12 @@ namespace Invector.vMelee
             {
                 if (attackObject != null)
                 {
-                    if (marker.isEnhanced)
+                    if (marker != null)
                     {
-                        damagePercentage *= 2;
+                        if (marker.isEnhanced)
+                        {
+                            damagePercentage *= 2;
+                        }
                     }
                     attackObject.OnHit(this, other);
                     damagePercentage = 100;

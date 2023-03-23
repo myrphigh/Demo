@@ -28,7 +28,9 @@ public class SpecialEnemyMarker : MonoBehaviour
     {
         if (other.gameObject.tag == "Weapon")
         {
-            if(other.GetComponent<SpecialWeaponMarker>().weaponType == LevelNum)
+            if (other.GetComponent<SpecialWeaponMarker>() == null)
+                return;
+            if (other.GetComponent<SpecialWeaponMarker>().weaponType == LevelNum)
             {
                 other.GetComponent<SpecialWeaponMarker>().isEnhanced = true;
             }
@@ -38,6 +40,8 @@ public class SpecialEnemyMarker : MonoBehaviour
     {
         if (other.gameObject.tag == "Weapon")
         {
+            if (other.GetComponent<SpecialWeaponMarker>() == null)
+                return;
             if (other.GetComponent<SpecialWeaponMarker>().weaponType == LevelNum)
             {
                 other.GetComponent<SpecialWeaponMarker>().isEnhanced = false;
