@@ -58,16 +58,28 @@ MonoBehaviour:
       type: {class: TasksTree, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
       data:
         m_Data:
-          m_Keys: 1fc5b691
+          m_Keys: 1fc5b6911b77c27734ff38ba
           m_Values:
           - m_Id: -1850292961
             m_Value:
               rid: 6792197358534000710
+          - m_Id: 2009233179
+            m_Value:
+              rid: 6792197358534000746
+          - m_Id: -1170669772
+            m_Value:
+              rid: 6792197358534000762
         m_Nodes:
-          m_Keys: 1fc5b691
+          m_Keys: 1fc5b6911b77c27734ff38ba
           m_Values:
           - m_Id: -1850292961
             m_Parent: -1
+            m_Children: 1b77c27734ff38ba
+          - m_Id: 2009233179
+            m_Parent: -1850292961
+            m_Children: 
+          - m_Id: -1170669772
+            m_Parent: -1850292961
             m_Children: 
         m_Roots: 1fc5b691
     - rid: 6792197358534000710
@@ -114,7 +126,8 @@ MonoBehaviour:
       type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Text:
-          m_Text: 
+          m_Text: "\u4F60\u7684\u98DE\u673A\u5728 E \u503C\u673A\u67DC\u53F0\u503C\u673A\uFF0C\u5728
+            D \u767B\u673A\u53E3\u767B\u673A"
     - rid: 6792197358534000713
       type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 6792197358534000714
@@ -134,4 +147,134 @@ MonoBehaviour:
             m_String: 
             m_ID: 0
     - rid: 6792197358534000717
+      type: {class: EventOnLateUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 6792197358534000746
+      type: {class: Task, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
+      data:
+        m_Completion: 0
+        m_IsHidden: 0
+        m_Name:
+          m_Property:
+            rid: 6792197358534000747
+        m_Description:
+          m_Property:
+            rid: 6792197358534000748
+        m_Color:
+          m_Property:
+            rid: 6792197358534000749
+        m_Sprite:
+          m_Property:
+            rid: 6792197358534000750
+        m_UseCounter: 0
+        m_CountTo:
+          m_Property:
+            rid: 6792197358534000751
+        m_ValueFrom:
+          m_Property:
+            rid: 6792197358534000752
+        m_CheckWhen:
+          rid: 6792197358534000753
+        m_OnActivate:
+          m_Instructions: []
+        m_OnDeactivate:
+          m_Instructions: []
+        m_OnComplete:
+          m_Instructions: []
+        m_OnAbandon:
+          m_Instructions: []
+        m_OnFail:
+          m_Instructions: []
+    - rid: 6792197358534000747
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: "\u529E\u7406\u503C\u673A, E \u503C\u673A\u67DC\u53F0\u503C\u673A"
+    - rid: 6792197358534000748
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: 
+    - rid: 6792197358534000749
+      type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 6792197358534000750
+      type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 6792197358534000751
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 3
+    - rid: 6792197358534000752
+      type: {class: GetDecimalGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 0}
+          m_Name:
+            m_String: 
+            m_ID: 0
+    - rid: 6792197358534000753
+      type: {class: EventOnLateUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 6792197358534000762
+      type: {class: Task, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
+      data:
+        m_Completion: 0
+        m_IsHidden: 0
+        m_Name:
+          m_Property:
+            rid: 6792197358534000763
+        m_Description:
+          m_Property:
+            rid: 6792197358534000764
+        m_Color:
+          m_Property:
+            rid: 6792197358534000765
+        m_Sprite:
+          m_Property:
+            rid: 6792197358534000766
+        m_UseCounter: 0
+        m_CountTo:
+          m_Property:
+            rid: 6792197358534000767
+        m_ValueFrom:
+          m_Property:
+            rid: 6792197358534000768
+        m_CheckWhen:
+          rid: 6792197358534000769
+        m_OnActivate:
+          m_Instructions: []
+        m_OnDeactivate:
+          m_Instructions: []
+        m_OnComplete:
+          m_Instructions: []
+        m_OnAbandon:
+          m_Instructions: []
+        m_OnFail:
+          m_Instructions: []
+    - rid: 6792197358534000763
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: "\u8FDB\u5165\u98DE\u673A, D \u767B\u673A\u53E3\u767B\u673A"
+    - rid: 6792197358534000764
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: 
+    - rid: 6792197358534000765
+      type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 6792197358534000766
+      type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 6792197358534000767
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 3
+    - rid: 6792197358534000768
+      type: {class: GetDecimalGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 0}
+          m_Name:
+            m_String: 
+            m_ID: 0
+    - rid: 6792197358534000769
       type: {class: EventOnLateUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
