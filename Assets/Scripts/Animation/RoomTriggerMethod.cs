@@ -36,7 +36,7 @@ public class RoomTriggerMethod : MonoBehaviour
         for (int i = 0; i < Childs.Length; i++)
         {
             GameObject targetGameobject = Childs[i].gameObject;
-            targetGameobject.GetComponent<Animator>().Play("Action");
+            targetGameobject.GetComponent<Animator>().SetBool("StartTrigger", true);
         }
     }
 
