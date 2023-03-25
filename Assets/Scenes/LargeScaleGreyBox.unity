@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 282840355}
   m_Layer: 0
   m_Name: LevelManager
-  m_TagString: Untagged
+  m_TagString: LevelManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -595,6 +595,8 @@ MonoBehaviour:
   scenesSeqInput:
   - LargeScaleGreyBox
   - MainLevel
+  - AirPortLevel
+  - MazeScene
 --- !u!4 &282840356
 Transform:
   m_ObjectHideFlags: 0

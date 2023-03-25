@@ -18,6 +18,7 @@ TagManager:
   - Interactable
   - SpawnPoint
   - LevelSpecialEnemy
+  - LevelManager
   layers:
   - Default
   - TransparentFX

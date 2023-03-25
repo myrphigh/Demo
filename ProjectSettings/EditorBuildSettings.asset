@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainLevel.unity
     guid: 883f2b312df967a4f8c99c5edf997121
+  - enabled: 1
+    path: Assets/Scenes/AirPortLevel.unity
+    guid: 02f0dc3b2eb1aa44ca46ac65dbc365bc
+  - enabled: 1
+    path: Assets/Scenes/MazeScene.unity
+    guid: 37040485ca021d14ca189613718c9edb
   m_configObjects: {}

@@ -33,6 +33,11 @@ public class LevelManager : Singleton<LevelManager>
             player = GameObject.FindWithTag("Player");
             LevelRestart();
         }
+
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            NextLevel();
+        }
     }
 
     public static  void LevelRestart()
@@ -46,5 +51,10 @@ public class LevelManager : Singleton<LevelManager>
     {
         currentLevelIndex++;
         SceneManager.LoadScene(scenesSeq[currentLevelIndex]);
+    }
+
+    public void tryNext()
+    {
+        NextLevel();
     }
 }
