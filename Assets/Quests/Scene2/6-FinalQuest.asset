@@ -23,7 +23,7 @@ MonoBehaviour:
       rid: 6792197310528880724
   m_Sprite:
     m_Property:
-      rid: 6792197310528880725
+      rid: 6792197393351704636
   m_Type: 0
   m_SortOrder: 0
   m_UniqueId:
@@ -52,8 +52,6 @@ MonoBehaviour:
       type: {class: GetStringEmpty, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 6792197310528880724
       type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-    - rid: 6792197310528880725
-      type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 6792197310528880726
       type: {class: TasksTree, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
       data:
@@ -135,3 +133,7 @@ MonoBehaviour:
             m_ID: 0
     - rid: 6792197310528880734
       type: {class: EventOnLateUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 6792197393351704636
+      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Sprite: {fileID: 21300000, guid: 5d5f8e40a009042d5986a52eb39b7eab, type: 3}

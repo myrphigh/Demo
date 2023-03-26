@@ -17,10 +17,15 @@ public class AnimSetController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            for (int i = 0; i < Childs.Length; i++)
-            {
-                Childs[i].GetComponent<RoomTriggerMethod>().StartAnimation();
-            }
+            AnimationStart();
          }
+    }
+
+    public void AnimationStart()
+    {
+        for (int i = 0; i < Childs.Length; i++)
+        {
+            Childs[i].GetComponent<RoomTriggerMethod>().StartAnimation();
+        }
     }
 }
